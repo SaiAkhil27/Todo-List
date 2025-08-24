@@ -14,6 +14,7 @@ This is a simple **To-Do List REST API** built using **Spring Boot**, **DTO patt
 - ModelMapper
 - Lombok
 - Maven
+- iTextPDF (for generating PDF reports)
 
 ---
 
@@ -26,6 +27,8 @@ com.example.todo
 - model # JPA Entity (Todo)
 - repository # JPA Repository
 - service # Business logic
+- TodoApplication # Main Spring Boot class
+- util # PDF Generator utility
 - TodoApplication # Main Spring Boot class
 
 
@@ -80,6 +83,8 @@ POST /api/todos
 - Exception handling with custom ResourceNotFoundException
 - RESTful API design principles
 - CRUD operations using Spring Data JPA and MySQL
+- PDF export using iTextPDF
+- Cross-browser file download handling with FileSaver.js
 
 
 
